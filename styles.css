@@ -1,165 +1,169 @@
 body {
-    background: linear-gradient(
-        -45deg,
-        #f066fa82,
-        #f4a0fa91
-      ),
-      url(https://i0.wp.com/calxylian.com/wp-content/uploads/2023/02/Guitarhero-STARRY-and-Bocchi-the-Rock.webp?fit=1200%2C675&ssl=1);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    height: 100vh;
-    margin: 0;
-    font-size: 16px;
-    font-family: "Comic Sans MS";
-  }
-  
-  header {
-    width: 100%;
-    height: 90px;
-    background: linear-gradient(
-        135deg,
-        #f066fa,
-        #f4a0fa
-      );
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-  }
-  
-  #logo {
-    width: min(70px, 20vw);
-    aspect-ratio: 1 / 1;
-    padding: 0;
-    margin: 0;
-    margin-left: 0.7rem;
-    border: 2px solid pink;
-  }
-  
-  a ,
-  a:visited,
-  a:hover,
-  a:active {
-    color: #efa3b0;
-  }
-  
-  nav > ul {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-inline-start: 0;
-    margin-block: 0;
-    height: 100%;
-  }
-  
-  nav > ul > li {
-    font-family: Helvetica;
-    color: #dfdfe2;
-    margin: 0 0.9rem;
-    padding: 0.2rem;
-    display: block;
-  }
-  
-  nav > ul > li > a,
-  nav > ul > li > a:visited,
-  nav > ul > li > a:hover,
-  nav > ul > li > a:active {
-    font-size: 1.5em;
-    color: #8a085d;
-    text-decoration: none;
-  }
-  
-  nav > ul > li:hover {
-    background-color: #d62799;
-    color: #1b1b32;
-    cursor: pointer;
-  }
-  
-  h1 {
-    padding: 0.2em 10vw;
-    margin-top: 0.7em;
-    margin-bottom: -0.3em;
-  }
-  
-  header > h1 {
-    text-align: center;
-    padding: initial;
-    margin: initial;
-    font-family: Verdana, Tahoma;
-    font-size: 3rem;
-    color: hotpink;
-    -webkit-text-stroke: 2px #d62799;
-  }
-  
-  main {
-    padding: 70px 20px;
-    color:#f6cada;
-  }
-  
-  .main-div {
-    /* border: 2px solid black; */
-    margin: auto;
-    margin-top: 50px;
-    width: 65vw;
-    padding: 1px;
-    background-color: #bd6ca1a0;
-  }
-  
-  #img-div {
-    text-align: center;
-  }
-  
-  #image {
-    border: 5px solid pink; 
-    max-width: 85%;
-    height: auto;
-    text-align: center;
-    margin: auto;
-    margin-top: 30px;
-    display: block;
-    box-sizing: border-box;
-  }
-  
-  img {
-    text-align: center;
-  }
-  
-  figcaption {
-    font-size: 2em;
-    padding-top: 3px;
-  }
-  
-  .main-list,
-  h3 {
-    padding: 0.5em 10vw;
-    list-style-position: inside;
-  }
-  
-  #mumu {
-    margin-right: -10vw;
-    width: max-width;
-    white-space: nowrap;
-    text-overflow: clip;
-    overflow: hidden;
-    box-sizing: border-box;
-  }
-  
-  .section-divider {
-    margin: auto;
-    height: 7px;
-    width: 80%;
-    background-color: #9d4c91a0;
-  }
-  
-  #mini-bocchi {
-    max-width: 5%;
-    height: auto;
-    margin: auto;
-    margin-top: -25px;
-    margin-bottom: 25px;
-    display: block;
-  }
+  background: linear-gradient(
+      -45deg,
+      #f066fa82,
+      #f4a0fa91
+    ),
+    url(https://i0.wp.com/calxylian.com/wp-content/uploads/2023/02/Guitarhero-STARRY-and-Bocchi-the-Rock.webp?fit=1200%2C675&ssl=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Comic Sans MS";
+}
+
+header {
+  width: 100%;
+  height: 90px;
+  background: linear-gradient(
+      135deg,
+      #f066fa,
+      #f4a0fa
+    );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+#logo {
+  width: min(70px, 20vw);
+  aspect-ratio: 1 / 1;
+  padding: 0;
+  margin: 0;
+  margin-left: 0.7rem;
+  border: 2px solid pink;
+}
+
+a ,
+a:visited,
+a:hover,
+a:active {
+  color: #efa3b0;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+}
+
+nav > ul > li {
+  font-family: Helvetica;
+  color: #dfdfe2;
+  margin: 0 0.9rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+nav > ul > li:last-of-type {
+  margin-right: 2rem;
+}
+
+nav > ul > li > a,
+nav > ul > li > a:visited,
+nav > ul > li > a:hover,
+nav > ul > li > a:active {
+  font-size: 1.5em;
+  color: #8a085d;
+  text-decoration: none;
+}
+
+nav > ul > li:hover {
+  background-color: #d62799;
+  color: #1b1b32;
+  cursor: pointer;
+}
+
+h1 {
+  padding: 0.2em 10vw;
+  margin-top: 0.7em;
+  margin-bottom: -0.3em;
+}
+
+header > h1 {
+  text-align: center;
+  padding: initial;
+  margin: initial;
+  font-family: Verdana, Tahoma;
+  font-size: 3rem;
+  color: hotpink;
+  -webkit-text-stroke: 2px #d62799;
+}
+
+main {
+  padding: 70px 20px;
+  color:#f6cada;
+}
+
+.main-div {
+  /* border: 2px solid black; */
+  margin: auto;
+  margin-top: 50px;
+  width: 65vw;
+  padding: 1px;
+  background-color: #bd6ca1a0;
+}
+
+#img-div {
+  text-align: center;
+}
+
+#image {
+  border: 5px solid pink; 
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  display: block;
+  box-sizing: border-box;
+}
+
+img {
+  text-align: center;
+}
+
+figcaption {
+  font-size: 2em;
+  padding-top: 3px;
+}
+
+.main-list,
+h3 {
+  padding: 0.5em 10vw;
+  list-style-position: inside;
+}
+
+#mumu {
+  margin-right: -10vw;
+  width: max-width;
+  white-space: nowrap;
+  text-overflow: clip;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.section-divider {
+  margin: auto;
+  height: 7px;
+  width: 80%;
+  background-color: #9d4c91a0;
+}
+
+#mini-bocchi {
+  max-width: 5%;
+  height: auto;
+  margin: auto;
+  margin-top: -25px;
+  margin-bottom: 25px;
+  display: block;
+}
